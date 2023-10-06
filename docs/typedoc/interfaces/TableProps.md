@@ -28,7 +28,7 @@ The table data to display.
 
 #### Defined in
 
-[src/Table.tsx:30](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/Table.tsx#L30)
+[src/Table.tsx:30](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/Table.tsx#L30)
 
 ___
 
@@ -45,7 +45,7 @@ Defaults to lightgray if not defined.
 
 #### Defined in
 
-[src/Table.tsx:17](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/Table.tsx#L17)
+[src/Table.tsx:17](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/Table.tsx#L17)
 
 ___
 
@@ -58,7 +58,7 @@ Otherwise assumed to be false.
 
 #### Defined in
 
-[src/Table.tsx:36](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/Table.tsx#L36)
+[src/Table.tsx:36](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/Table.tsx#L36)
 
 ___
 
@@ -75,7 +75,7 @@ Defaults to transparent or '' if not defined.
 
 #### Defined in
 
-[src/Table.tsx:23](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/Table.tsx#L23)
+[src/Table.tsx:23](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/Table.tsx#L23)
 
 ___
 
@@ -92,4 +92,4 @@ Defaults to false.
 
 #### Defined in
 
-[src/Table.tsx:11](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/Table.tsx#L11)
+[src/Table.tsx:11](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/Table.tsx#L11)

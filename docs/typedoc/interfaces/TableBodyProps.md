@@ -41,7 +41,7 @@ TableRowProps.data
 
 #### Defined in
 
-[src/TableBody.tsx:10](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableBody.tsx#L10)
+[src/TableBody.tsx:10](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableBody.tsx#L10)
 
 ___
 
@@ -57,7 +57,7 @@ TableRowProps.even
 
 #### Defined in
 
-[src/TableRow.tsx:32](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableRow.tsx#L32)
+[src/TableRow.tsx:32](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableRow.tsx#L32)
 
 ___
 
@@ -73,7 +73,7 @@ TableRowProps.evenRowColor
 
 #### Defined in
 
-[src/TableRow.tsx:37](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableRow.tsx#L37)
+[src/TableRow.tsx:37](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableRow.tsx#L37)
 
 ___
 
@@ -89,7 +89,7 @@ TableRowProps.fontSize
 
 #### Defined in
 
-[src/TableRow.tsx:12](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableRow.tsx#L12)
+[src/TableRow.tsx:12](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableRow.tsx#L12)
 
 ___
 
@@ -105,7 +105,7 @@ TableRowProps.includeBottomBorder
 
 #### Defined in
 
-[src/TableCell.tsx:24](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L24)
+[src/TableCell.tsx:24](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L24)
 
 ___
 
@@ -121,7 +121,7 @@ TableRowProps.includeLeftBorder
 
 #### Defined in
 
-[src/TableCell.tsx:29](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L29)
+[src/TableCell.tsx:29](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L29)
 
 ___
 
@@ -137,7 +137,7 @@ TableRowProps.includeRightBorder
 
 #### Defined in
 
-[src/TableCell.tsx:19](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L19)
+[src/TableCell.tsx:19](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L19)
 
 ___
 
@@ -153,7 +153,7 @@ TableRowProps.includeTopBorder
 
 #### Defined in
 
-[src/TableCell.tsx:14](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L14)
+[src/TableCell.tsx:14](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L14)
 
 ___
 
@@ -169,7 +169,7 @@ TableRowProps.oddRowColor
 
 #### Defined in
 
-[src/TableRow.tsx:42](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableRow.tsx#L42)
+[src/TableRow.tsx:42](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableRow.tsx#L42)
 
 ___
 
@@ -182,7 +182,7 @@ if there is no header.
 
 #### Defined in
 
-[src/TableBody.tsx:16](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableBody.tsx#L16)
+[src/TableBody.tsx:16](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableBody.tsx#L16)
 
 ___
 
@@ -198,7 +198,7 @@ TableRowProps.textAlign
 
 #### Defined in
 
-[src/TableRow.tsx:17](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableRow.tsx#L17)
+[src/TableRow.tsx:17](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableRow.tsx#L17)
 
 ___
 
@@ -214,4 +214,4 @@ TableRowProps.zebra
 
 #### Defined in
 
-[src/TableRow.tsx:27](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableRow.tsx#L27)
+[src/TableRow.tsx:27](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableRow.tsx#L27)

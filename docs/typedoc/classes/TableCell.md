@@ -79,4 +79,4 @@ React.PureComponent.render
 
 #### Defined in
 
-[src/TableCell.tsx:64](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L64)
+[src/TableCell.tsx:64](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L64)

@@ -30,7 +30,7 @@ Include the bottom border. Default true.
 
 #### Defined in
 
-[src/TableCell.tsx:24](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L24)
+[src/TableCell.tsx:24](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L24)
 
 ___
 
@@ -42,7 +42,7 @@ Include the left border. Default true.
 
 #### Defined in
 
-[src/TableCell.tsx:29](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L29)
+[src/TableCell.tsx:29](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L29)
 
 ___
 
@@ -54,7 +54,7 @@ Include the right border. Default true.
 
 #### Defined in
 
-[src/TableCell.tsx:19](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L19)
+[src/TableCell.tsx:19](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L19)
 
 ___
 
@@ -66,4 +66,4 @@ Include the top border. Default true.
 
 #### Defined in
 
-[src/TableCell.tsx:14](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L14)
+[src/TableCell.tsx:14](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L14)

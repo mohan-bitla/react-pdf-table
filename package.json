@@ -19,6 +19,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@cfaester/enzyme-adapter-react-18": "^0.7.0",
     "@react-pdf/renderer": "^3.1.12",
     "@types/enzyme": "^3.1.10",
     "@types/faker": "^4.1.5",
@@ -31,7 +32,6 @@
     "barrelsby": "^2.1.1",
     "css-loader": "^3.0.0",
     "enzyme": "^3.10.0",
-    "@cfaester/enzyme-adapter-react-18": "^0.7.0",
     "faker": "^4.1.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
@@ -65,5 +65,7 @@
   },
   "homepage": "https://github.com/dmk99/react-pdf-table.git#README",
   "types": "./lib/index.d.ts",
-  "dependencies": {}
+  "dependencies": {
+    "@david.kucsai/react-pdf-table": "github:mohan-bitla/react-pdf-table"
+  }
 }

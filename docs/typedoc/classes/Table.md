@@ -77,4 +77,4 @@ React.PureComponent.render
 
 #### Defined in
 
-[src/Table.tsx:40](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/Table.tsx#L40)
+[src/Table.tsx:40](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/Table.tsx#L40)

@@ -37,7 +37,7 @@ The data associated with the cell.
 
 #### Defined in
 
-[src/DataTableCell.tsx:8](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/DataTableCell.tsx#L8)
+[src/DataTableCell.tsx:8](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/DataTableCell.tsx#L8)
 
 ___
 
@@ -53,7 +53,7 @@ The font-size to apply to the cell.
 
 #### Defined in
 
-[src/TableCell.tsx:57](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L57)
+[src/TableCell.tsx:57](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L57)
 
 ___
 
@@ -79,7 +79,7 @@ The content to display for this cell.
 
 #### Defined in
 
-[src/DataTableCell.tsx:14](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/DataTableCell.tsx#L14)
+[src/DataTableCell.tsx:14](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/DataTableCell.tsx#L14)
 
 ___
 
@@ -95,7 +95,7 @@ Include the bottom border. Default true.
 
 #### Defined in
 
-[src/TableCell.tsx:24](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L24)
+[src/TableCell.tsx:24](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L24)
 
 ___
 
@@ -111,7 +111,7 @@ Include the left border. Default true.
 
 #### Defined in
 
-[src/TableCell.tsx:29](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L29)
+[src/TableCell.tsx:29](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L29)
 
 ___
 
@@ -127,7 +127,7 @@ Include the right border. Default true.
 
 #### Defined in
 
-[src/TableCell.tsx:19](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L19)
+[src/TableCell.tsx:19](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L19)
 
 ___
 
@@ -143,7 +143,7 @@ Include the top border. Default true.
 
 #### Defined in
 
-[src/TableCell.tsx:14](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L14)
+[src/TableCell.tsx:14](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L14)
 
 ___
 
@@ -159,7 +159,7 @@ Whether this is a header cell or not. If not defined it will be false.
 
 #### Defined in
 
-[src/TableCell.tsx:52](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L52)
+[src/TableCell.tsx:52](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L52)
 
 ___
 
@@ -175,7 +175,7 @@ Extra styling to apply. These will override existing style with the same key.
 
 #### Defined in
 
-[src/TableCell.tsx:42](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L42)
+[src/TableCell.tsx:42](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L42)
 
 ___
 
@@ -191,7 +191,7 @@ How to align the text
 
 #### Defined in
 
-[src/TableCell.tsx:47](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L47)
+[src/TableCell.tsx:47](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L47)
 
 ___
 
@@ -208,4 +208,4 @@ This value is between 0..1, if not specified 1 is assumed, this will take up the
 
 #### Defined in
 
-[src/TableCell.tsx:37](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L37)
+[src/TableCell.tsx:37](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/TableCell.tsx#L37)

@@ -79,4 +79,4 @@ React.PureComponent.render
 
 #### Defined in
 
-[src/DataTableCell.tsx:21](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/DataTableCell.tsx#L21)
+[src/DataTableCell.tsx:21](https://github.com/mohan-bitla/react-pdf-table/blob/433583f/src/DataTableCell.tsx#L21)
