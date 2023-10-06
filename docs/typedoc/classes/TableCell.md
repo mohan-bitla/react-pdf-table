@@ -30,7 +30,7 @@ This component displays the associated content of it's children.
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `Readonly`<[`TableCellProps`](../interfaces/TableCellProps.md)\> |
+| `props` | [`TableCellProps`](../interfaces/TableCellProps.md) \| `Readonly`<[`TableCellProps`](../interfaces/TableCellProps.md)\> |
 
 #### Inherited from
 
@@ -38,20 +38,22 @@ React.PureComponent<TableCellProps\>.constructor
 
 #### Defined in
 
-node_modules/@types/react/index.d.ts:478
+node_modules/@types/react/index.d.ts:506
 
-• **new TableCell**(`props`, `context?`)
-
-**`deprecated`**
-
-**`see`** https://reactjs.org/docs/legacy-context.html
+• **new TableCell**(`props`, `context`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `props` | [`TableCellProps`](../interfaces/TableCellProps.md) |
-| `context?` | `any` |
+| `context` | `any` |
+
+**`Deprecated`**
+
+**`See`**
+
+https://legacy.reactjs.org/docs/legacy-context.html
 
 #### Inherited from
 
@@ -59,7 +61,7 @@ React.PureComponent<TableCellProps\>.constructor
 
 #### Defined in
 
-node_modules/@types/react/index.d.ts:483
+node_modules/@types/react/index.d.ts:511
 
 ## Methods
 
@@ -77,4 +79,4 @@ React.PureComponent.render
 
 #### Defined in
 
-[src/TableCell.tsx:63](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/TableCell.tsx#L63)
+[src/TableCell.tsx:64](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L64)

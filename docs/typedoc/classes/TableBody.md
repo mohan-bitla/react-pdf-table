@@ -30,7 +30,7 @@ This component displays the data as {@see TableRow}s.
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `Readonly`<[`TableBodyProps`](../interfaces/TableBodyProps.md)\> |
+| `props` | [`TableBodyProps`](../interfaces/TableBodyProps.md) \| `Readonly`<[`TableBodyProps`](../interfaces/TableBodyProps.md)\> |
 
 #### Inherited from
 
@@ -38,20 +38,22 @@ React.PureComponent<TableBodyProps\>.constructor
 
 #### Defined in
 
-node_modules/@types/react/index.d.ts:478
+node_modules/@types/react/index.d.ts:506
 
-• **new TableBody**(`props`, `context?`)
-
-**`deprecated`**
-
-**`see`** https://reactjs.org/docs/legacy-context.html
+• **new TableBody**(`props`, `context`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `props` | [`TableBodyProps`](../interfaces/TableBodyProps.md) |
-| `context?` | `any` |
+| `context` | `any` |
+
+**`Deprecated`**
+
+**`See`**
+
+https://legacy.reactjs.org/docs/legacy-context.html
 
 #### Inherited from
 
@@ -59,7 +61,7 @@ React.PureComponent<TableBodyProps\>.constructor
 
 #### Defined in
 
-node_modules/@types/react/index.d.ts:483
+node_modules/@types/react/index.d.ts:511
 
 ## Methods
 
@@ -77,4 +79,4 @@ React.PureComponent.render
 
 #### Defined in
 
-[src/TableBody.tsx:23](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/TableBody.tsx#L23)
+[src/TableBody.tsx:23](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableBody.tsx#L23)

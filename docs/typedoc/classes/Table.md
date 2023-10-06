@@ -28,7 +28,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `Readonly`<[`TableProps`](../interfaces/TableProps.md)\> |
+| `props` | [`TableProps`](../interfaces/TableProps.md) \| `Readonly`<[`TableProps`](../interfaces/TableProps.md)\> |
 
 #### Inherited from
 
@@ -36,20 +36,22 @@ React.PureComponent<TableProps\>.constructor
 
 #### Defined in
 
-node_modules/@types/react/index.d.ts:478
+node_modules/@types/react/index.d.ts:506
 
-• **new Table**(`props`, `context?`)
-
-**`deprecated`**
-
-**`see`** https://reactjs.org/docs/legacy-context.html
+• **new Table**(`props`, `context`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `props` | [`TableProps`](../interfaces/TableProps.md) |
-| `context?` | `any` |
+| `context` | `any` |
+
+**`Deprecated`**
+
+**`See`**
+
+https://legacy.reactjs.org/docs/legacy-context.html
 
 #### Inherited from
 
@@ -57,7 +59,7 @@ React.PureComponent<TableProps\>.constructor
 
 #### Defined in
 
-node_modules/@types/react/index.d.ts:483
+node_modules/@types/react/index.d.ts:511
 
 ## Methods
 
@@ -75,4 +77,4 @@ React.PureComponent.render
 
 #### Defined in
 
-[src/Table.tsx:40](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/Table.tsx#L40)
+[src/Table.tsx:40](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/Table.tsx#L40)

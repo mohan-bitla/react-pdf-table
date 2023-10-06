@@ -30,7 +30,7 @@ This component is used to display data in the the {@see TableRow} component.
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `Readonly`<[`DataTableCellProps`](../interfaces/DataTableCellProps.md)\> |
+| `props` | [`DataTableCellProps`](../interfaces/DataTableCellProps.md) \| `Readonly`<[`DataTableCellProps`](../interfaces/DataTableCellProps.md)\> |
 
 #### Inherited from
 
@@ -38,20 +38,22 @@ React.PureComponent<DataTableCellProps\>.constructor
 
 #### Defined in
 
-node_modules/@types/react/index.d.ts:478
+node_modules/@types/react/index.d.ts:506
 
-• **new DataTableCell**(`props`, `context?`)
-
-**`deprecated`**
-
-**`see`** https://reactjs.org/docs/legacy-context.html
+• **new DataTableCell**(`props`, `context`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `props` | [`DataTableCellProps`](../interfaces/DataTableCellProps.md) |
-| `context?` | `any` |
+| `context` | `any` |
+
+**`Deprecated`**
+
+**`See`**
+
+https://legacy.reactjs.org/docs/legacy-context.html
 
 #### Inherited from
 
@@ -59,7 +61,7 @@ React.PureComponent<DataTableCellProps\>.constructor
 
 #### Defined in
 
-node_modules/@types/react/index.d.ts:483
+node_modules/@types/react/index.d.ts:511
 
 ## Methods
 
@@ -77,4 +79,4 @@ React.PureComponent.render
 
 #### Defined in
 
-[src/DataTableCell.tsx:21](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/DataTableCell.tsx#L21)
+[src/DataTableCell.tsx:21](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/DataTableCell.tsx#L21)

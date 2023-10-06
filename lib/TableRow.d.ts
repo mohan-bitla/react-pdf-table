@@ -11,5 +11,5 @@ export interface TableRowProps extends TableBorder {
     oddRowColor?: string;
 }
 export declare class TableRow extends React.PureComponent<Partial<TableBodyProps>> {
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

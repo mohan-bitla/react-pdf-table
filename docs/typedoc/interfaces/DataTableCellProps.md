@@ -2,6 +2,9 @@
 
 # Interface: DataTableCellProps
 
+Whether to include borders or not.
+Depending on the context some toggles will not have any effect.
+
 ## Hierarchy
 
 - [`TableCellProps`](TableCellProps.md)
@@ -14,6 +17,7 @@
 
 - [data](DataTableCellProps.md#data)
 - [fontSize](DataTableCellProps.md#fontsize)
+- [getContent](DataTableCellProps.md#getcontent)
 - [includeBottomBorder](DataTableCellProps.md#includebottomborder)
 - [includeLeftBorder](DataTableCellProps.md#includeleftborder)
 - [includeRightBorder](DataTableCellProps.md#includerightborder)
@@ -22,10 +26,6 @@
 - [style](DataTableCellProps.md#style)
 - [textAlign](DataTableCellProps.md#textalign)
 - [weighting](DataTableCellProps.md#weighting)
-
-### Methods
-
-- [getContent](DataTableCellProps.md#getcontent)
 
 ## Properties
 
@@ -37,7 +37,7 @@ The data associated with the cell.
 
 #### Defined in
 
-[src/DataTableCell.tsx:8](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/DataTableCell.tsx#L8)
+[src/DataTableCell.tsx:8](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/DataTableCell.tsx#L8)
 
 ___
 
@@ -53,7 +53,33 @@ The font-size to apply to the cell.
 
 #### Defined in
 
-[src/TableCell.tsx:56](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/TableCell.tsx#L56)
+[src/TableCell.tsx:57](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L57)
+
+___
+
+### getContent
+
+• **getContent**: (`data`: `any`) => `ReactNode` \| `Element`
+
+#### Type declaration
+
+▸ (`data`): `ReactNode` \| `Element`
+
+The content to display for this cell.
+
+##### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `data` | `any` | the data passed in. |
+
+##### Returns
+
+`ReactNode` \| `Element`
+
+#### Defined in
+
+[src/DataTableCell.tsx:14](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/DataTableCell.tsx#L14)
 
 ___
 
@@ -69,7 +95,7 @@ Include the bottom border. Default true.
 
 #### Defined in
 
-[src/TableCell.tsx:23](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/TableCell.tsx#L23)
+[src/TableCell.tsx:24](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L24)
 
 ___
 
@@ -85,7 +111,7 @@ Include the left border. Default true.
 
 #### Defined in
 
-[src/TableCell.tsx:28](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/TableCell.tsx#L28)
+[src/TableCell.tsx:29](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L29)
 
 ___
 
@@ -101,7 +127,7 @@ Include the right border. Default true.
 
 #### Defined in
 
-[src/TableCell.tsx:18](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/TableCell.tsx#L18)
+[src/TableCell.tsx:19](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L19)
 
 ___
 
@@ -117,7 +143,7 @@ Include the top border. Default true.
 
 #### Defined in
 
-[src/TableCell.tsx:13](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/TableCell.tsx#L13)
+[src/TableCell.tsx:14](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L14)
 
 ___
 
@@ -133,7 +159,7 @@ Whether this is a header cell or not. If not defined it will be false.
 
 #### Defined in
 
-[src/TableCell.tsx:51](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/TableCell.tsx#L51)
+[src/TableCell.tsx:52](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L52)
 
 ___
 
@@ -149,7 +175,7 @@ Extra styling to apply. These will override existing style with the same key.
 
 #### Defined in
 
-[src/TableCell.tsx:41](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/TableCell.tsx#L41)
+[src/TableCell.tsx:42](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L42)
 
 ___
 
@@ -165,7 +191,7 @@ How to align the text
 
 #### Defined in
 
-[src/TableCell.tsx:46](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/TableCell.tsx#L46)
+[src/TableCell.tsx:47](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L47)
 
 ___
 
@@ -182,26 +208,4 @@ This value is between 0..1, if not specified 1 is assumed, this will take up the
 
 #### Defined in
 
-[src/TableCell.tsx:36](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/TableCell.tsx#L36)
-
-## Methods
-
-### getContent
-
-▸ **getContent**(`data`): `ReactNode` \| `Element`
-
-The content to display for this cell.
-
-#### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `data` | `any` | the data passed in. |
-
-#### Returns
-
-`ReactNode` \| `Element`
-
-#### Defined in
-
-[src/DataTableCell.tsx:14](https://github.com/dmk99/react-pdf-table/blob/ddcba28/src/DataTableCell.tsx#L14)
+[src/TableCell.tsx:37](https://github.com/mohan-bitla/react-pdf-table/blob/311c211/src/TableCell.tsx#L37)
